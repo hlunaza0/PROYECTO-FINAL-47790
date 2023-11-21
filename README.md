@@ -12,7 +12,7 @@ drwxr-xr-x@ 8 marianobarraco  staff   256B Sep  3 09:26 ProyectoFinal  # <--- di
 -rw-r--r--@ 1 marianobarraco  staff     0B Sep  3 09:28 db.sqlite3
 -rwxr-xr-x@ 1 marianobarraco  staff   669B Sep  3 09:25 manage.py
 ```
-1. Dentro de la carpeta `ProyectoCoder/ProyectoFinal/ProyectoFinal` vamos a correr el comando `python manage.py startapp AppCoder` lo
+1. Dentro de la carpeta `ProyectoFinal\manage.py` vamos a correr el comando `python manage.py startapp AppCoder` lo
 cual nos dejará en este estado
 ```bash
 # directorio: ProyectoCoder/ProyectoFinal
