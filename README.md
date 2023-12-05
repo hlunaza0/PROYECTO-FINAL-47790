@@ -129,7 +129,7 @@ esta es la manera de informarle a `Django` que queremos que utilice los template
    ```
 
 ### Templates con CSS ("mejorando nuestros templates")
-1. Crear una carpeta llamada `static` en nuestra app: `ProyectoCoder/ProyectoFinal/AppCoder/static`
+1. Crear una carpeta llamada `static` en nuestra app: `ProyectoCoder/ProyectoFinal/AppCoder/static/AppCoder`
 2. Descargarse el archivo `.zip` con contenido estático de: [este link](https://startbootstrap.com/previews/landing-page)
 3. Descomprimir y guardar todo el contenido en la carpeta `static`
 4. Creamos un archivo que se llame `inicio.html` en la carpeta de templates. El contenido de este archivo tiene que ser el mismo que en `index.html` del archivo `.zip` que descomprimimos.
