@@ -131,10 +131,10 @@ esta es la manera de informarle a `Django` que queremos que utilice los template
 ### Templates con CSS ("mejorando nuestros templates")
 1. Crear una carpeta llamada `static` en nuestra app: `ProyectoCoder/ProyectoFinal/AppCoder/static/AppCoder`
 2. Descargarse el archivo `.zip` con contenido estático de: [este link](https://startbootstrap.com/previews/landing-page)
-3. Descomprimir y guardar todo el contenido en la carpeta `static`
-4. Creamos un archivo que se llame `inicio.html` en la carpeta de templates. El contenido de este archivo tiene que ser el mismo que en `index.html` del archivo `.zip` que descomprimimos.
-5. Vamos a elminar todo el contenido dede la línea 74 `<!-- Icons Grid-->` hasta la línea 201 `</section>`
-6. Le agregamos 1 línea y modificamos otra:
+3. Descomprimir y guardar todo el contenido en la carpeta `static/AppCoder`
+5. Creamos un archivo que se llame `inicio.html` en la carpeta de templates. El contenido de este archivo tiene que ser el mismo que en `index.html` del archivo `.zip` que descomprimimos.
+6. Vamos a elminar todo el contenido dede la línea 74 `<!-- Icons Grid-->` hasta la línea 201 `</section>`
+7. Le agregamos 1 línea y modificamos otra:
     ```html
     {% load static %}
     ```
@@ -143,8 +143,8 @@ esta es la manera de informarle a `Django` que queremos que utilice los template
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{% static 'AppCoder/css/styles.css'  %}" rel="stylesheet" />
     ```
-7. Creamos una ruta `inicio` y una view para responder con el template `inicio.html`
-8. Ahora podemos hacer modificaciones en el texto que se muestra en el browser.
+8. Creamos una ruta `inicio` y una view para responder con el template `inicio.html`
+9. Ahora podemos hacer modificaciones en el texto que se muestra en el browser.
 
 ### Modelos
 1. Correr `python manage.py migrate`
